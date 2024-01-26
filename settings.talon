@@ -12,7 +12,7 @@ settings():
     user.help_max_contexts_per_page = 20
 
     # The default amount used when scrolling continuously
-    user.mouse_continuous_scroll_amount = 80
+    user.mouse_continuous_scroll_amount = 350
 
     # Stop continuous scroll/gaze scroll with a pop
     user.mouse_enable_pop_stops_scroll = 1
@@ -24,10 +24,10 @@ settings():
     user.mouse_enable_pop_click = 1
 
     # Enable if you like to use the hissing noise to do mouse scroll
-    user.mouse_enable_hiss_scroll = 0
+    user.mouse_enable_hiss_scroll = 1
 
     # When enabled, the 'Scroll Mouse' GUI will not be shown.
-    user.mouse_hide_mouse_gui = 0
+    user.mouse_hide_mouse_gui = 1
 
     # Hide cursor when mouse_wake is called to enable zoom mouse
     user.mouse_wake_hides_cursor = 0
@@ -61,7 +61,7 @@ settings():
     # copying surrounding text before inserting. This can be slow and may not
     # work in some applications. You may wish to enable this on a
     # per-application basis.
-    # user.context_sensitive_dictation = 1
+    user.context_sensitive_dictation = 1
 
     # How to resize windows moved across physical screens (eg. via `snap next`).
     # Default is 'proportional', which preserves window size : screen size ratio.
